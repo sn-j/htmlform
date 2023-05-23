@@ -9,12 +9,14 @@ body {
 }
 
 form {
-  background-color: #9BA4B5;
-  width: 55%;
+  background-color: #F6FFDE;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
+  margin-bottom: 3%;
   padding-bottom: 10px;
+  box-shadow: 3px 5px 5px #FCFFB2;
 }
 
 form>p {
@@ -34,10 +36,12 @@ form>p {
 .fix .left {
   width: 41%;
   text-align: right;
+  margin-top: 5px;
 }
 
 .fix .right {
   width: 56%;
+  margin-top: 5px;
 }
 
 .input-name input {
@@ -65,7 +69,7 @@ form>p {
 }
 
 .p-radiobtn p {
-  margin-top: -4%;
+  margin-top: -12%;
 }
 
 .p-checkbox p {
@@ -79,6 +83,7 @@ form>p {
 
 .ratiobtns div {
   margin-bottom: 5px;
+  margin-top: 8px;
 }
 
 .checkboxes div {
