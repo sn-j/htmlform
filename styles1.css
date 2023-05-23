@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212A3E;
+}
+
+form {
+  background-color: #9BA4B5;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding-bottom: 10px;
+}
+
+form>p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  font-size: 18px;
+}
+
+.fix {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 2% 0;
+  align-items: center;
+}
+
+.fix .left {
+  width: 41%;
+  text-align: right;
+}
+
+.fix .right {
+  width: 56%;
+}
+
+.input-name input {
+  width: 60%;
+  height: 26px;
+  padding-left: 3px;
+}
+
+.input-email input {
+  width: 60%;
+  height: 26px;
+  padding-left: 3px;
+}
+
+.input-scale input {
+  width: 60%;
+  height: 26px;
+  padding-left: 3px;
+}
+
+#location {
+  width: 60%;
+  height: 26px;
+  background-color: white;
+}
+
+.p-radiobtn p {
+  margin-top: -4%;
+}
+
+.p-checkbox p {
+  margin-top: -21%;
+}
+
+.p-checkbox span {
+  display: block;
+}
+
+
+.ratiobtns div {
+  margin-bottom: 5px;
+}
+
+.checkboxes div {
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 15%;
+  padding: 8px;
+  margin-top: 9px;
+  text-align: center;
+  margin-left: 38%;
+  background-color: blue;
+  color: white;
+  margin-bottom: 5px;
+}
